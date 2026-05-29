@@ -1,0 +1,19 @@
+launch:
+
+- node:
+    pkg: "tutorial_ardusub"
+    exec: "arm_disarm_client"
+    name: "arm_disarm_client"
+    namespace: ""
+
+- node:
+    pkg: "tutorial_ardusub"
+    exec: "movement_publisher"
+    name: "bluerov2_movement"
+    namespace: ""
+
+# - node:
+#     pkg: "tutorial_ardusub"
+#     exec: "subscriber"
+#     name: "tutorial_subscriber"
+#     namespace: ""
